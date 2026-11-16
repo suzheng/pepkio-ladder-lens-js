@@ -1,7 +1,8 @@
 {
   "name": "pepkio-ladder-lens",
   "version": "0.1.0",
-  "description": "Gel electrophoresis band size estimator for DNA/RNA agarose and protein SDS-PAGE gels using the Pepkio Tools REST API.",
+  "description": "Estimate DNA, RNA, and protein band sizes from gel electrophoresis migration distances using semi-log standard curves via the Pepkio Tools REST API.",
+  "readme": "README_NPM.md",
   "type": "module",
   "engines": {
     "node": ">=18"
@@ -20,6 +21,7 @@
   "files": [
     "dist",
     "README.md",
+    "README_NPM.md",
     "LICENSE"
   ],
   "scripts": {
@@ -37,14 +39,19 @@
   },
   "homepage": "https://www.pepkio.com/tools/ladder-lens",
   "keywords": [
-    "gel",
-    "electrophoresis",
-    "dna",
-    "protein",
-    "ladder",
-    "band-size",
+    "ladder-lens",
+    "gel-electrophoresis",
+    "agarose-gel",
     "sds-page",
-    "agarose",
+    "band-size-estimation",
+    "molecular-weight-calibration",
+    "relative-mobility",
+    "rf-calculation",
+    "semi-log-regression",
+    "gel-smile-correction",
+    "dna-ladder",
+    "protein-ladder",
+    "bioinformatics",
     "pepkio",
     "typescript",
     "node",
